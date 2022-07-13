@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  display: block;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+/*******************************************NAVBAR**************************************************/
+nav {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+.logogroup {
+  height: 3px;
+  float: left;
+  margin-left: 200px;
+}
+.menu {
+  float: right;
+  margin-right: 200px;
+  color: #747474;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li a:hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li:hover ul {
+  display: block;
+}
+.menu li:hover ul li {
+  float: none;
+}
+.menu li ul {
+  position: absolute;
+}
+li,
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #747474;
+  display: block;
+  float: right;
+  padding: 10px;
+  font-family: roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+}
+.sous-menu{
+  background-color: white;
+  display: table;
+  border-radius: 5px grey;
+  text-align: center;
+}
+
+/************************************************INTRODUCTION************************************************/
+
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-left: 600px;
+  padding: 60px;
+  text-align: center;
+}
+.introduction {
+  margin-top: 30px;
+  text-align: center;
+}
+.introduction h1 {
+  display: inline-flex;
+  text-align: center;
+  color: #00b39b;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 300;
+}
+.mission {
+  display: inline-flex;
+}
+.mission p {
+  text-align: center;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  width: 460px;
+  height: 150px;
+  margin: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/*************************************************part2 BOXES*********************************************/
+
+.flexbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexbox-item {
+  height: 280px;
+  width: 250px;
+  padding: 30px;
+  margin-bottom: 40px;
+  color: white;
+  border: 5px solid;
+  border-radius: 12px;
+  gap: 10px;
+  align-items: center;
+}
+.item1 {
+  background-color: #00ccb1;
+}
+.item2 {
+  background-color: #4185df;
+}
+.item3 {
+  background-color: #293440;
+}
+.titles {
+  text-align: left;
+}
+.titles h1 {
+  color: white;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.titles h2 {
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 29px;
+  text-align: left;
+  padding-bottom: 60px;
+}
+#countries1 {
+  background-color: #00ccb1;
+}
+#countries2 {
+  background-color: #4185df;
+}
+#countries3 {
+  background-color: #293440;
+}
+#countries4 {
+  background-color: #293440;
+}
+select {
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 25px;
+  box-shadow: none;
+  color: white;
+  text-decoration: underline;
+  border: none;
+  font-size: 19px;
+  outline: 0;
+}
+
+/******************************************PART 3 BRANDS****************************************************/
+.brands {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+}
+.brands h1 {
+  color: #00b39b;
+  font-size: 26px;
+  font-weight: 100;
+  font-family: "Work Sans", Arial, sans-serif;
+  width: 550px;
+  margin-left: 200px;
+}
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 200px;
+  width: 800px;
+  height: 150px;
+}
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/******************************************part 4 PLATFORM***************************************************/
+.platform {
+  background-color: #d7f5f5;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.image-logo {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.plateform-section {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.platformintroduction {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.platformintroduction h1 {
+  color: #00b39b;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 300;
+  font-family: "Work Sans", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.platformintroduction P {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 400px;
+  margin-bottom: 100px;
+  color: #747474;
+}
+.platformpart1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.platformpart2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.platformitem {
+  background-color: white;
+  text-align: center;
+  word-spacing: 1;
+  justify-self: center;
+  padding: 20px;
+  width: 200px;
+  height: 220px;
+  justify-content: space-between;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.platformitem h3 {
+  text-align: center;
+  color:#00b39b ;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 31px;
+  font-family: "Work Sans", Arial, sans-serif;
+  padding: 15px;
+}
+.platformitem p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1;
+  font-family: Roboto, Arial, sans-serif;
+  height: 17px;
+  font-weight: 400;
+  padding: 5px;
+}
+.number1 {
+  margin-top: 50px;
+}
+.number2 {
+  margin-top: 20px;
+}
+.number3 {
+  margin-top: 20px; 
+}
+
+/*****************************************part 5 PHOTOS***************************************************/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat (3, 1fr);
+  font-size: 2em;
+  grid-gap: 1Opx;
+  height: 1150px;
+}
+.img {
+  width: 300px;
+  height: 280px;
+  flex-direction: row;
+  text-align: center;
+  min-height: 100px;
+}
+figure {
+  margin-left: 140px;
+  margin-right: 200px;
+}
+.description {
+  display: flex;
+  margin-top: 10px;
+}
+.description button {
+  margin-left: 130px;
+}
+.imagea {
+  border: #747474;
+  box-shadow: 350px 300px #747474;
+}
+.presentation h1 {
+  align-content: center;
+  color: #00b39b;
+  text-align: center;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+  height: 39px;
+  font-weight: 300;
+  margin: 60px;
+}
+.presentation p {
+  text-align: center;
+  margin: 50px;
+  font-size: 14px;
+}
+.join_us h1 {
+  color: #747474;
+  text-align: center;
+  size: 30px;
+  height: 39px;
+  font-weight: 300 normal;
+}
+.join_us button {
+  text-align: center;
+  margin: 5px 550px;
+}
+button {
+  background-color: #4185df;
+  color: white;
+  border-style: hidden;
+  font-size: 10px;
+  font-weight: 700;
+  bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*********************************************FOOTER****************************************************/
+footer {
+  position: relative;
+  border-top: 0.5px solid #dbd9d9;
+  display: block;
+  margin-top: 70px;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 0px;
+}
+.countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 150px;
+}
+.countries p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.countries a {
+  text-align: center;
+  color: #4185df;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+}
+.cookies p {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #747474;
+}
